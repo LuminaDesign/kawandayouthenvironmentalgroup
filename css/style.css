@@ -161,9 +161,9 @@ a:focus {
 }
 
 .navbar-brand span {
-  font-weight: bold;
-  font-size: 24px;
-  color: #000000;
+  color: rgba(0, 0, 0, .9);
+  padding-left: 90px;
+  z-index: 2;
 }
 
 .custom_nav-container {
