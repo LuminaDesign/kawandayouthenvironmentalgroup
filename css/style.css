@@ -50,7 +50,7 @@ body {
 }
 
 .heading_container h2 span {
-  color: #0a97b0;
+  color: #00660E;
 }
 
 .heading_container p {
@@ -143,7 +143,7 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #0a97b0;
+  color: #00660E;
 }
 
 .header_section .header_top .contact_nav a:hover i {
@@ -161,9 +161,10 @@ a:focus {
 }
 
 .navbar-brand span {
-  color: rgba(0, 0, 0, .9);
-  padding-left: 90px;
-  z-index: 2;
+  font-weight: bold;
+  font-size: 24px;
+  color: #000000;
+  padding: auto;
 }
 
 .custom_nav-container {
@@ -185,7 +186,7 @@ a:focus {
 }
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
-  color: #0a97b0;
+  color: #00660E;
 }
 
 .custom_nav-container .nav_search-btn {
@@ -285,6 +286,7 @@ a:focus {
 }
 
 /*end header section*/
+
 /* slider section */
 .slider_section {
   -webkit-box-flex: 1;
@@ -310,8 +312,9 @@ a:focus {
 }
 
 .slider_section .slider_bg_box img {
-  width: auto;
-  height: auto;
+  display: flex;
+  width: center;
+  height: max-content;
   min-width: 100%;
   min-height: 100%;
 }
@@ -323,8 +326,8 @@ a:focus {
   left: 0;
   width: 100%;
   height: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(37, 37, 37, 0.9)), to(rgba(37, 37, 37, 0.7)));
-  background: linear-gradient(to right, rgba(37, 37, 37, 0.9), rgba(37, 37, 37, 0.7));
+  background: -webkit-gradient(linear, left top, right top, from(rgba(37, 37, 37, 0.384)), to(rgba(37, 37, 37, 0.329)));
+  background: linear-gradient(to right, rgba(37, 37, 37, 0.527), rgba(37, 37, 37, 0.425));
 }
 
 .slider_section .row {
@@ -371,7 +374,7 @@ a:focus {
 .slider_section .detail-box .btn-box .btn1 {
   display: inline-block;
   padding: 10px 15px;
-  background-color: #0a97b0;
+  background-color: #00660E;
   color: #ffffff;
   border-radius: 0;
   -webkit-transition: all .3s;
@@ -380,7 +383,7 @@ a:focus {
 }
 
 .slider_section .detail-box .btn-box .btn1:hover {
-  background-color: #065968;
+  background-color: #00660E;
 }
 
 .slider_section .detail-box .btn-box .btn2 {
@@ -421,7 +424,7 @@ a:focus {
 .slider_section .carousel-indicators li.active {
   width: 20px;
   height: 20px;
-  background-color: #0a97b0;
+  background-color: #00660E;
 }
 
 .service_section {
@@ -472,7 +475,7 @@ a:focus {
 }
 
 .service_section .box .detail-box a:hover {
-  color: #0a97b0;
+  color: #00660E;
 }
 
 .about_section .row {
@@ -523,7 +526,7 @@ a:focus {
 .about_section .detail-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #0a97b0;
+  background-color: #00660E;
   color: #ffffff;
   border-radius: 0px;
   -webkit-transition: all .3s;
@@ -533,7 +536,7 @@ a:focus {
 }
 
 .about_section .detail-box a:hover {
-  background-color: #065968;
+  background-color: #00660E;
 }
 
 .Mission_section {
@@ -622,7 +625,7 @@ a:focus {
           flex: 1;
   display: inline-block;
   padding: 9px 30px;
-  background-color: #0a97b0;
+  background-color: #00660E;
   color: #ffffff;
   border-radius: 0;
   -webkit-transition: all .3s;
@@ -633,7 +636,7 @@ a:focus {
 }
 
 .Mission_section form button:hover {
-  background-color: #065968;
+  background-color: #00660E;
 }
 
 .Team_section .Team_container {
@@ -706,7 +709,7 @@ a:focus {
   position: absolute;
   right: -15%;
   outline: none;
-  background-color: #0a97b0;
+  background-color: #00660E;
 }
 
 .Team_section .owl-carousel .owl-nav .owl-prev:hover,
@@ -778,7 +781,7 @@ a:focus {
   text-transform: uppercase;
   display: inline-block;
   padding: 12px 55px;
-  background-color: #0a97b0;
+  background-color: #00660E;
   color: #ffffff;
   border-radius: 5px;
   -webkit-transition: all .3s;
@@ -787,7 +790,7 @@ a:focus {
 }
 
 .contact_section .form_container button:hover {
-  background-color: #065968;
+  background-color: #00660E;
 }
 
 .contact_section .map_container {
@@ -848,7 +851,7 @@ a:focus {
 }
 
 .info_section .info_contact .contact_link_box a:hover {
-  color: #0a97b0;
+  color: #00660E;
 }
 
 .info_section .info_social {
@@ -876,7 +879,7 @@ a:focus {
 }
 
 .info_section .info_social a:hover {
-  color: #0a97b0;
+  color: #00660E;
 }
 
 .info_section .info_links {
@@ -903,7 +906,7 @@ a:focus {
 }
 
 .info_section .info_links a:hover {
-  color: #0a97b0;
+  color: #00660E;
 }
 
 .info_section form input {
@@ -937,7 +940,7 @@ a:focus {
   text-align: center;
   display: inline-block;
   padding: 10px 55px;
-  background-color: #0a97b0;
+  background-color: #00660E;
   color: #ffffff;
   border-radius: 0;
   -webkit-transition: all .3s;
@@ -947,7 +950,7 @@ a:focus {
 }
 
 .info_section form button:hover {
-  background-color: #065968;
+  background-color: #00660E;
 }
 
 /* footer section*/
